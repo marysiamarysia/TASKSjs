@@ -6,8 +6,6 @@ function rule(...theArgs) {
     return finalArr;
   }
   
-
-
   function verify(input, goal) {
     if (JSON.stringify(input) === JSON.stringify(goal)) {
       console.log("Gratulacje!");
